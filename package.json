@@ -1,6 +1,6 @@
 {
 	"name": "unifi-ddns",
-	"version": "3.1.1",
+	"version": "3.3.1",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
@@ -11,15 +11,14 @@
 		"cf-typegen": "wrangler types"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "0.7.4",
-		"@cloudflare/workers-types": "4.20250224.0",
-		"@vitest/coverage-istanbul": "3.0.7",
-		"typescript": "5.8.2",
-		"vitest": "3.0.7",
-		"wrangler": "3.111.0"
+		"@cloudflare/workers-types": "4.20260313.1",
+		"@vitest/coverage-v8": "4.1.0",
+		"typescript": "5.9.3",
+		"vitest": "4.1.0",
+		"wrangler": "4.72.0"
 	},
 	"dependencies": {
-		"@cloudflare/types": "6.29.1",
-		"cloudflare": "4.1.0"
+		"@cloudflare/types": "7.0.0",
+		"cloudflare": "5.2.0"
 	}
 }
